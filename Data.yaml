@@ -1,0 +1,303 @@
+# functieLijstIncident
+# 0. leiding
+# 1. bronBestrijding
+# 2. ontsmetten
+# 3. redding
+# 4. meten
+# 5. triage
+# 6. behandelen
+# 7. vervoeren
+# 8. evacuatie
+# 9. bewakenBeveiligen
+# 10. verkeer
+# 11. ordeHandhaving
+# 12. opsporingOnderzoek
+# 13. levensmiddelenLeveren
+# 14. personeelMateriaal
+# 15. communicatie
+# 16. informatieManagement
+
+ned:
+  - niveau
+    - incident
+      afkorting: CoPi
+      compleet: Commando Post Incident
+      omschrijving: Operationele leiding op de plaats van een incident. Zij richten zich op het aanpakken van het incident zelf en de directe omgeving.
+      toevoeging: bij grote rampen kunnen er meerdere CoPi tegelijk actief zijn.
+      - functies
+        [
+          #index 0
+          verantwoordelijk:  [ --- , Leider CoPi]
+          contactgegevens: ---
+          identifier: ---, 
+          #index 1
+          verantwoordelijk:  [Brandweer, Officier van Dienst Brandweer (OvD-B)]
+          contactgegevens: ---
+          identifier: Brandweerzorg (rodekolom),
+          #index 2
+          verantwoordelijk: [Brandweer, Officier van Dienst Brandweer (OvD-B)]
+          contactgegevens: ---
+          identifier: Brandweerzorg (rodekolom),
+          #index 3
+          verantwoordelijk: [Brandweer, Officier van Dienst Brandweer (OvD-B)]
+          contactgegevens: ---
+          identifier: Brandweerzorg (rodekolom),
+          #index 4
+          verantwoordelijk: [Brandweer, Milieudienst of Adviseur Gevaarlijke stoffen (AGS)]
+          contactgegevens: ---
+          identifier: Brandweerzorg (rodekolom),
+          #index 5
+          verantwoordelijk: [Geneeskundige Hulpverleningsorganisatie in de Regio (GHOR),  Officier van Dienst Geneeskundig (OvD-G)]
+          contactgegevens: ---
+          identifier: Geneeskundige zorg (witte kolom),
+          #index 6
+          verantwoordelijk: [Geneeskundige Hulpverleningsorganisatie in de Regio (GHOR),  Officier van Dienst Geneeskundig (OvD-G)]
+          contactgegevens: ---
+          identifier: Geneeskundige zorg (witte kolom),
+          #index 7
+          verantwoordelijk: [Geneeskundige Hulpverleningsorganisatie in de Regio (GHOR),  Officier van Dienst Geneeskundig (OvD-G)]
+          contactgegevens: ---
+          identifier: Geneeskundige zorg (witte kolom),
+          #index 8
+          verantwoordelijk: [Gemeente, Officier van Dienst Bevolkingszorg (OvD-BZ)]
+          contactgegevens: ---
+          identifier: Bevolkingszorg (Oranje kolom),
+          #index 9
+          verantwoordelijk: [Politie, Officier van Dienst Politie (OvD-P)]
+          contactgegevens: ---
+          identifier: Politiezorg (blauwe kolom),
+          #index 10
+          verantwoordelijk: [Politie, Officier van Dienst Politie (OvD-P), Rijkswaterstaat of Prorail]
+          contactgegevens: ---
+          identifier: Politiezorg (blauwe kolom),
+          #index 11
+          verantwoordelijk: [Politie, Officier van Dienst Politie (OvD-P)]
+          contactgegevens: ---
+          identifier: Politiezorg (blauwe kolom),
+          #index 12
+          verantwoordelijk: [Politie, Officier van Dienst Politie (OvD-P)]
+          contactgegevens: ---
+          identifier: Politiezorg (blauwe kolom),
+          #index 13
+          verantwoordelijk: [Gemeente, Officier van Dienst Bevolkingszorg (OvD-BZ)]
+          contactgegevens: ---
+          identifier: Bevolkingszorg (Oranje kolom),
+          #index 14
+          verantwoordelijk: [Gemeente, Officier van Dienst Bevolkingszorg (OvD-BZ)]
+          contactgegevens: ---
+          identifier: Bevolkingszorg (Oranje kolom),
+          #index 15
+          verantwoordelijk: [Veiligheidsregio, Communicatieadviseur]
+          contactgegevens: ---
+          identifier: Ondersteunende functies,
+          #index 16
+          verantwoordelijk: [Veiligheidsregio, Communicatieadviseur]
+          contactgegevens: ---
+          identifier: Ondersteunende functies
+        ]
+        
+    - regionaal
+      afkorting: ROT
+      compleet: Regionaal Operationeel Team
+      omschrijving: Als het incident een effect heeft op een groot gebied neemt dit team de leiding over het grotere gebied en zorgt voor afstemming tussen de hulpdiensten en CoPis. Bijvoorbeeld wie gaat wat waar doen, of welke extra hulp is er nodig. 
+      toevoeging: ---
+      - functies
+       [ 
+        wat: Leiding
+        verantwoordelijk: [---, Operationeel leider]
+        contactgegevens: ---
+        identifier: ---
+       ]
+       
+    - gemeentelijk
+      afkorting: GBT
+      compleet: Gemeentelijk Beleidsteam
+      omschrijving: Als het gebied nog groter is en bijvoorbeeld een hele stad treft (overstromingen bijvoorbeeld) dan komt dit team om bestuurlijk beslissing te nemen. Vaak is er dan ook opvang nodig, nderdak, veel noodhulp en moeten extra maatregelen worden genomen die alleen een burgmeester mag nemen. We spreken hier vaak van een ramp.
+      toevoeging: ---
+      - functies
+       [ 
+        wat: Voorzitter
+        verantwoordelijk: [---, Burgermeester]
+        contactgegevens: ---
+        identifier: ---
+       ]
+       
+    - provinciaal
+      afkorting: ---
+      compleet: ---
+      omschrijving: ---
+      toevoeging: ---
+      - functies
+       [ 
+         ---
+       ]
+    
+    - landelijk
+      afkorting: RBT
+      compleet: Regionaal Beleidsteam
+      omschrijving: Als de ramp voorbij de grenzen van een gemeente, regio of provincie gaat dan is er vaak strategische keuzes nodig die worden gemaakt door bestuurders (politici) die worden geadviseerd door crisis deskundigen en leidinggevenden.
+      toevoeging: ---
+      - functies
+       [ 
+        wat: Voorzitter
+        verantwoordelijk: [---, Coördinerend bestuurder (vaak Burgemeester van grote stad)]
+        contactgegevens: ---
+        identifier: ---,
+        
+        wat: Rode kolom
+        verantwoordelijk: [---, Commandant van de brandweerregio]
+        contactgegevens: ---
+        identifier: ---,
+
+        wat: Witte kolom
+        verantwoordelijk: [---, Leidinggevende GHOR]
+        contactgegevens: ---
+        identifier: ---,
+        
+        wat: Blauwe kolom
+        verantwoordelijk: [---,  Korpschef Politie]
+        contactgegevens: ---
+        identifier: ---,
+
+        wat: Oranje kolom
+        verantwoordelijk: [---,  Gemeentesecretaris]
+        contactgegevens: ---
+        identifier: ---,
+       ]
+    
+
+
+# functieLijstIncident
+# 0. leiding
+# 1. bronBestrijding
+# 2. ontsmetten
+# 3. redding
+# 4. meten
+# 5. triage
+# 6. behandelen
+# 7. vervoeren
+# 8. evacuatie
+# 9. bewakenBeveiligen
+# 10. verkeer
+# 11. ordeHandhaving
+# 12. opsporingOnderzoek
+# 13. levensmiddelenLeveren
+# 14. personeelMateriaal
+# 15. communicatie
+# 16. informatieManagement
+  
+
+Be:
+  -niveau
+    - incident
+      afkorting: CP-OPS 
+      compleet: Commando Post Operaties
+      omschrijving: Bij een operationele coördinatie is er nood aan coördinatie op het terrein. Er wordt dan een Commandopost operaties of CPOps opgericht. Hierin worden de operationele zaken rondom het incident afgestemd tussen de verschillende hulpdiensten.
+      toevoeging: ---
+      - functies
+        [
+         #index 0
+          verantwoordelijk: [---, leiding, 0.Dir CP-OPS]
+          contactgegevens: ---
+          identifier: ---
+          #index 1
+          verantwoordelijk:  [Brandweer, Dir-BW]
+          contactgegevens: ---
+          identifier: Hulpverleningsoperatie (Discipline 1)
+ ,
+          #index 2
+          verantwoordelijk: [Brandweer, Dir-BW]
+          contactgegevens: ---
+          identifier: Hulpverleningsoperatie (Discipline 1)
+          #index 3
+          verantwoordelijk: [Brandweer, Dir-BW]
+          contactgegevens: ---
+          identifier: Hulpverleningsoperatie (Discipline 1)
+          #index 4
+          verantwoordelijk: [brandweer, Dir-BW]
+          contactgegevens: ---
+          identifier: Hulpverleningsoperatie (Discipline 1)
+          #index 5
+          verantwoordelijk: [Geneeskundige Hulpverleningsorganisatie in de Regio (GHOR),  Officier van Dienst Geneeskundig (OvD-G)]
+          contactgegevens: ---
+          identifier: Geneeskundige zorg (witte kolom),
+          #index 6
+          verantwoordelijk: [Geneeskundige Hulpverleningsorganisatie in de Regio (GHOR),  Officier van Dienst Geneeskundig (OvD-G)]
+          contactgegevens: ---
+          identifier: Geneeskundige zorg (witte kolom),
+          #index 7
+          verantwoordelijk: [Geneeskundige Hulpverleningsorganisatie in de Regio (GHOR),  Officier van Dienst Geneeskundig (OvD-G)]
+          contactgegevens: ---
+          identifier: Geneeskundige zorg (witte kolom),
+          #index 8
+          verantwoordelijk: [Gemeente, Officier van Dienst Bevolkingszorg (OvD-BZ)]
+          contactgegevens: ---
+          identifier: Bevolkingszorg (Oranje kolom)
+          #index 9
+          verantwoordelijk: [Politie, Officier van Dienst Politie (OvD-P)]
+          contactgegevens: ---
+          identifier: Politiezorg (blauwe kolom)
+          #index 10
+          verantwoordelijk: [Politie, Officier van Dienst Politie (OvD-P), Rijkswaterstaat of Prorail]
+          contactgegevens: ---
+          identifier: Politiezorg (blauwe kolom)
+          #index 11
+          verantwoordelijk: [Politie, Officier van Dienst Politie (OvD-P)]
+          contactgegevens: ---
+          identifier: Politiezorg (blauwe kolom)
+          #index 12
+          verantwoordelijk: [Politie, Officier van Dienst Politie (OvD-P)]
+          contactgegevens: ---
+          identifier: Politiezorg (blauwe kolom)
+          #index 13
+          verantwoordelijk: [Gemeente, Officier van Dienst Bevolkingszorg (OvD-BZ)]
+          contactgegevens: ---
+          identifier: Bevolkingszorg (Oranje kolom)
+          #index 14
+          verantwoordelijk: [Gemeente, Officier van Dienst Bevolkingszorg (OvD-BZ)]
+          contactgegevens: ---
+          identifier: Bevolkingszorg (Oranje kolom)
+          #index 15
+          verantwoordelijk: [Veiligheidsregio, Communicatieadviseur]
+          contactgegevens: ---
+          identifier: Ondersteunende functies
+          #index 16
+          verantwoordelijk: [Veiligheidsregio, Communicatieadviseur]
+          contactgegevens: ---
+          identifier: Ondersteunende functies
+        ]
+#Brandweer:
+#1,2,3,4 Dir-BW
+
+#Geneeskundige
+#Hulpverleningsorganisatie
+#in de Regio (GHOR)
+#5,6,7,8 Dir-Med
+
+#Politie
+#9, 10, 11, 12 Dir-Pol
+
+#Gemeente
+#13, 14, 15 Dir-Log
+
+#Veiligheidsreg
+#16. Dir-info
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

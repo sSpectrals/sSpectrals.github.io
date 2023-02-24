@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html class="Compare-page">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" 
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <title>ERI</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="manifest" href="manifest.json">
+  <link rel="shortcut icon" href="Pictures/EU-Logo.svg">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&amp;display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+
+<div id="Hot-Cold-Banner"> </div>
+
+
+  
+<div class="select-container">
+  <select name="Country A" class="select-field" id="select-field-1">
+    <option value="" disabled selected hidden>Country A</option>
+    <option value="Belgium">Belgium</option>
+    <option value="France">France</option>
+    <option value="Germany">Germany</option>
+    <option value="Netherlands">Netherlands</option>
+  </select>
+  <span id="Comparison-Arrow" class="material-icons">sync_alt</span>
+  <select name="Country B" class="select-field" id="select-field-2">
+    <option value="" disabled selected hidden>Country B</option>
+    <option value="Belgium">Belgium</option>
+    <option value="France">France</option>
+    <option value="Germany">Germany</option>
+    <option value="Netherlands">Netherlands</option>
+    </select>
+</div>
+<div class="result-container" style="display:none;">
+  <div id="country1-container">
+    <div class="country-name" id="country-1"></div>
+    <div class="level-name-country1"></div>
+    <div class="level-name-country1"></div>
+    <div class="level-name-country1"></div>
+    <div class="level-name-country1"></div>
+    <div class="level-name-country1"></div>
+    <div class="level-name-country1"></div>
+  </div>
+  <hr class="grey-line">
+  <div id="country2-container" >
+    <div class="country-name" id="country-2"></div>
+    <div class="level-name-country2"></div>
+    <div class="level-name-country2"></div>
+    <div class="level-name-country2"></div>
+    <div class="level-name-country2"></div>
+    <div class="level-name-country2"></div>
+  </div>
+</div>
+
+
+<div class="Button-nav">
+  <a id="my-button-1" class="Button-one" title="Home">
+    <span class="material-icons">home</span>
+    <p>Home</p>
+  </a>
+  
+  <a id="my-button-2" class="Button-two" title="Compare" >
+    <span class="material-icons">sync_alt</span>
+    <p>Compare</p>
+  </a>
+  <a id="my-button-3" class="Button-three" title="Settings" >
+    <span class="material-icons">settings</span>
+    <p>Settings</p>
+  </a>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

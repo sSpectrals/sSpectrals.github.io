@@ -1,0 +1,250 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  margin:0;
+  -webkit-tap-highlight-color: transparent;
+  font-family: 'Roboto', Arial, sans-serif;
+}
+
+
+.Compare-page {
+  overflow-y: auto;
+}
+
+.Compare-page .Button-nav {
+  position: fixed;
+}
+
+img {
+   pointer-events: none;
+}
+
+
+
+/* --- */
+#EU-Logo {
+  z-index: 3;
+  position: absolute;
+  top: 20px;
+  right: 20vw;
+  width:80%;
+}
+
+
+/* --- */
+
+input {
+  cursor: pointer;
+  margin: 1rem auto;
+  position: fixed;
+  right: 5vw;
+  top: 5vh;
+  width: 20%;
+  height: 34px;
+  border-radius: 25px;
+  outline: none;
+  background-color: #6391fd;
+  -webkit-appearance: none;
+  transition: background .3s rgba(0,0,0,0.15);
+}
+
+input::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  height: 1.25rem;
+  width: 1.25rem;
+  background-color: white;
+  transition: left .3s;
+}
+
+input::before {
+  content: "Cold";
+  opacity: 0.7;
+  position: absolute;
+  right: 30%;
+  top: 50%;
+  transform: translate(50%, -50%);
+  font-weight: bold;
+  transition: right .3s;
+}
+
+input:checked {
+  background-color: rgb(247, 64, 2);
+}
+
+input:checked::after {
+  left: 80%;
+}
+
+input:checked::before {
+  content: "Hot";
+  right: 70%;
+}
+
+
+
+/* --- */
+
+.select-container {
+  position: relative;
+  user-select: none;
+  top: 5vh;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.select-field {
+  width: 45%;
+  height: 5vh;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.result-container {
+  user-select: none;
+  border-radius: 25px;
+  background-color: #ccc;
+  padding: 20px;
+  margin-top: 10%;
+  position: relative;
+  justify-content: space-between;
+}
+
+.country-name {
+  -webkit-appearance: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.level-name-country1, .level-name-country2 {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.level-name-country2 {
+  text-align: right;
+}
+
+.grey-line {
+  height: 80%;
+  margin: 0px;
+  width: 2px;
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  background-color: #333;
+}
+
+/* --- */
+
+
+.Button-nav {
+  position: absolute;
+  bottom: 0%;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.Button-one,
+.Button-two, .Button-three {
+  text-align: center;
+  -webkit-touch-callout: none;
+  vertical-align: middle;
+  line-height: 5vh;
+  position: relative;
+  height: 5vh;
+  width: 100%;
+  color: #f2f2f2; 
+  background-color: #003399;
+  display: inline-block;
+  border-radius: 0;
+  padding: 10px 18px; 
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.Button-two {
+   box-shadow: -2px 0px 0px 0px white, inset -2px 0px 0px 0px white;
+}
+
+p {
+  font-size: 12px;
+  margin-top: -3vh;
+  user-select: none;
+}
+
+span {
+  user-select: none;
+}
+#Comparison-Arrow{
+  line-height: 5vh;
+
+}
+
+
+/* ---- */
+
+
+
+.button-collection {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  align-items: center;
+  flex-direction: column;
+  left: -4vw;
+}
+
+
+
+.button {
+  color: white;
+  border-radius: 20px;
+  padding: 10px 20px;
+  margin-top: 10%;
+  font-size: 16px;
+  height: 7vh;
+  width: 50vw;
+  border: none;
+  cursor: pointer;
+  background: #1c59e9;
+  box-shadow:inset 0px 0px 0px 5px #6391fd;
+  user-select: none;
+}
+
+
+
+
+.top-banner {
+  background-color: #f1f1f1;
+  height: 13vh;
+}
+
+
+#Hot-Cold-Banner {
+  background: #6391fd;
+  height: 1vh;
+  width: 100vw;
+  position: absolute;
+}
+
+.showcase-image {
+  width: 100%;
+}
+
+
+
+/* ----- */
